@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shalini | Full Stack Python Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="logo">shalini<span>.</span></div>
+        <div class="nav-controls">
+            <button id="theme-toggle" class="icon-btn" aria-label="Toggle Theme">🌙</button>
+            <button id="menu-toggle" class="icon-btn hamburger" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+
+        <!-- Dropdown Navigation Menu -->
+        <nav id="nav-menu" class="nav-menu">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#journey">Journey</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="typing-container">
+            <span id="typing-text" class="badge"></span><span class="cursor">|</span>
+        </div>
+        <h1>Hi, I'm <span>Shalini.</span><br>I build for the web.</h1>
+        <p>
+            I am an MCA student at Sri Chaitanya College of Engineering.
+            I completed my graduation in MPCS at Sri Chaitanya Degree College.
+            Currently, I am learning Full Stack Python at TEKS Academy.
+            My goal is to become a skilled software developer.
+        </p>
+        
+        <div class="hero-buttons">
+            <a href="#projects" class="btn primary">Explore My Work ↗</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+
+        <!-- Profile Card -->
+        <div class="profile-card">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Shalini Profile">
+            <div class="skill-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>PYTHON</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <p class="section-subtitle">WHAT I KNOW</p>
+        <h2>My <span>Skills</span></h2>
+        <p class="section-desc">Technologies I'm learning and practising.</p>
+
+        <div class="skills-grid">
+            <div class="card">
+                <span class="card-num">01</span>
+                <h3>Frontend</h3>
+                <p>HTML5, CSS3, Flexbox, Responsive Design</p>
+            </div>
+            <div class="card">
+                <span class="card-num">02</span>
+                <h3>Programming</h3>
+                <p>Python, JavaScript</p>
+            </div>
+            <div class="card">
+                <span class="card-num">03</span>
+                <h3>Database</h3>
+                <p>SQL, MySQL, Joins</p>
+            </div>
+            <div class="card">
+                <span class="card-num">04</span>
+                <h3>Tools & Backend</h3>
+                <p>Git, GitHub, Django</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vertical Timeline: Experience & Journey -->
+    <section id="journey" class="section">
+        <p class="section-subtitle">MY JOURNEY</p>
+        <h2>Experience & <span>Journey</span></h2>
+        <p class="section-desc">My educational and professional learning journey.</p>
+
+        <div class="timeline">
+            <!-- Milestone 1 (Completed) -->
+            <div class="timeline-item">
+                <div class="timeline-dot filled"></div>
+                <div class="timeline-card">
+                    <span class="timeline-date">Graduation</span>
+                    <h3>B.Sc. in MPCS</h3>
+                    <p>Completed my undergraduate degree at Sri Chaitanya Degree College and built strong analytical skills.</p>
+                    <span class="timeline-tag">Education</span>
+                </div>
+            </div>
+
+            <!-- Milestone 2 (Active Ring) -->
+            <div class="timeline-item">
+                <div class="timeline-dot active"></div>
+                <div class="timeline-card">
+                    <span class="timeline-date">Present (2nd Year)</span>
+                    <h3>Master of Computer Applications (MCA)</h3>
+                    <p>Pursuing postgraduate studies in computer applications at Sri Chaitanya College of Engineering.</p>
+                    <span class="timeline-tag">Education</span>
+                </div>
+            </div>
+
+            <!-- Milestone 3 (Active Ring) -->
+            <div class="timeline-item">
+                <div class="timeline-dot active"></div>
+                <div class="timeline-card">
+                    <span class="timeline-date">2026 – Present</span>
+                    <h3>Full Stack Python Development</h3>
+                    <p>Learning HTML, CSS, JavaScript, SQL, and Python development at TEKS Academy.</p>
+                    <span class="timeline-tag">Learning</span>
+                </div>
+            </div>
+
+            <!-- Milestone 4 (Active Ring) -->
+            <div class="timeline-item">
+                <div class="timeline-dot active"></div>
+                <div class="timeline-card">
+                    <span class="timeline-date">Current Focus</span>
+                    <h3>Building Web Projects</h3>
+                    <p>Creating responsive websites and strengthening software development skills.</p>
+                    <span class="timeline-tag">Projects</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Background Section -->
+    <section id="education" class="section">
+        <p class="section-subtitle">ACADEMIC BACKGROUND</p>
+        <h2>My <span>Education</span></h2>
+
+        <div class="card-container">
+            <div class="card">
+                <span class="card-num">2025 – PRESENT</span>
+                <h3>Master of Computer Applications</h3>
+                <p>Sri Chaitanya College of Engineering</p>
+                <span class="status-badge">Currently Pursuing</span>
+            </div>
+
+            <div class="card">
+                <span class="card-num">GRADUATION</span>
+                <h3>B.Sc. in MPCS</h3>
+                <p>Sri Chaitanya Degree College</p>
+                <span class="status-badge completed">Completed</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="section">
+        <p class="section-subtitle">MY WORK</p>
+        <h2>Featured <span>Projects</span></h2>
+        <p class="section-desc">Some of the projects I created and practised.</p>
+
+
+            <div class="project-card">
+                <div class="project-banner purple-gradient">MY PORTFOLIO</div>
+                <div class="project-body">
+                    <span class="project-tech">HTML • CSS • JS</span>
+                    <h3>Personal Portfolio</h3>
+                    <p>A personal portfolio showcasing my skills and learning journey.</p>
+                    <a href="#about" class="project-link">View Project ↗</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="contact-box">
+            <p class="section-subtitle">GET IN TOUCH</p>
+            <h2>Let's build something <span>meaningful.</span></h2>
+            <p class="section-desc">Interested in connecting, collaborating and exploring opportunities.</p>
+            <a href="mailto:shalinikashetti@gmail.com" class="btn primary">Email Me ↗</a>
+        </div>
+    </section>
+    <!-- Featured Projects Section -->
+    <section id="projects" class="section">
+        <p class="section-subtitle">MY WORK</p>
+        <h2>Featured <span>Projects</span></h2>
+        <p class="section-desc">Some of the projects I created and practised.</p>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-banner green-gradient">URBAN GROWING</div>
+                <div class="project-body">
+                    <span class="project-tech">HTML • CSS</span>
+                    <h3>Urban Farming Website</h3>
+                    <p>A responsive website promoting urban farming.</p>
+                    <a href="https://jajiteks-ctrl.github.io/urban/" target="_blank" class="project-link">View Project ↗</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-banner purple-gradient">AI PDF CHATBOT</div>
+                <div class="project-body">
+                    <span class="project-tech">PYTHON • RAG • EMBEDDINGS • GEMINI API</span>
+                    <h3>AI PDF Chatbot</h3>
+                    <p>A PDF question-answering chatbot developed using Python, RAG & embeddings, and Gemini API.</p>
+                    <a href="#projects" class="project-link">View Project ↗</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-banner orange-gradient">PROJECT OVERHEAT</div>
+                <div class="project-body">
+                    <span class="project-tech">IOT • MACHINE LEARNING • RANDOM FOREST</span>
+                    <h3>Project Overheat</h3>
+                    <p>A predictive maintenance project using IoT sensor data and a Random Forest model.</p>
+                    <a href="#projects" class="project-link">View Project ↗</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Shalini Kashetti. Built with HTML, CSS & JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
